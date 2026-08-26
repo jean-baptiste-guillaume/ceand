@@ -3,21 +3,244 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CEAND - Simulation</title>
+
+  <title>Simulation de conversation</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f7f7fb;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #17172a;
+    }
+
+    .page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 24px 60px;
+    }
+
+    h1 {
+      font-size: 34px;
+      margin-bottom: 12px;
+    }
+
+    .intro {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #505064;
+      margin-bottom: 30px;
+    }
+
+    .objective {
+      background: #f0edff;
+      border-radius: 16px;
+      padding: 22px 26px;
+      margin-bottom: 28px;
+    }
+
+    .objective-title {
+      font-weight: bold;
+      color: #6545e8;
+      margin-bottom: 8px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 22px;
+      padding: 30px;
+      box-shadow: 0 6px 30px rgba(0,0,0,0.07);
+    }
+
+    .label {
+      color: #6545e8;
+      font-weight: bold;
+      margin-bottom: 18px;
+    }
+
+    .profile {
+      display: flex;
+      gap: 25px;
+      align-items: center;
+      margin-bottom: 26px;
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: #ede9ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 48px;
+      flex-shrink: 0;
+    }
+
+    .profile h2 {
+      margin: 0 0 8px;
+      font-size: 24px;
+    }
+
+    .profile p {
+      margin: 0;
+      line-height: 1.55;
+      color: #575767;
+    }
+
+    .mission {
+      background: #faf9ff;
+      padding: 20px 24px;
+      border-radius: 14px;
+      margin-bottom: 28px;
+      line-height: 1.6;
+    }
+
+    .mission strong {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .agent {
+      min-height: 420px;
+    }
+
+    .tips {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 15px;
+      margin-top: 25px;
+    }
+
+    .tip {
+      background: #f7f7f9;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .tip strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    @media (max-width: 650px) {
+      .profile {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .tips {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-  <h2>Simulation d'entretien</h2>
-  <p>Lorsque vous êtes prêt, démarrez la conversation.</p>
+<div class="page">
 
-  <elevenlabs-convai agent-id="agent_6901m0wc9v7be678a03mqymntktr"></elevenlabs-convai>
+  <h1>Simulation de conversation</h1>
 
-  <script
-    src="https://unpkg.com/@elevenlabs/convai-widget-embed"
-    async
-    type="text/javascript">
-  </script>
+  <p class="intro">
+    Vous allez appeler votre grand-mère et échanger quelques minutes avec elle.
+    L'objectif est simplement de maintenir une conversation naturelle,
+    chaleureuse et attentive.
+  </p>
+
+  <div class="objective">
+    <div class="objective-title">🎯 Votre objectif</div>
+    Prendre des nouvelles de Mamé, lui montrer que vous pensez à elle
+    et faire vivre la conversation sans chercher à résoudre toutes les difficultés
+    qu'elle pourrait évoquer.
+  </div>
+
+  <div class="card">
+
+    <div class="label">Votre interlocutrice</div>
+
+    <div class="profile">
+
+      <div class="avatar">
+        👵
+      </div>
+
+      <div>
+        <h2>Mamé</h2>
+        <p>
+          Votre grand-mère vit seule et passe beaucoup de temps chez elle.
+          Elle est contente de vous entendre, même si elle peut commencer
+          la conversation en vous reprochant de ne pas l'appeler assez souvent.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="mission">
+      <strong>Prêt à commencer ?</strong>
+
+      Lancez l'appel et laissez la conversation se dérouler naturellement.
+      Écoutez Mamé, prenez de ses nouvelles et rebondissez simplement sur ce
+      qu'elle vous raconte.
+    </div>
+
+    <div class="agent">
+
+      <elevenlabs-convai
+        agent-id="agent_6901m0wc9v7be678a03mqymntktr"
+
+        variant="expanded"
+
+        action-text="Parler avec Mamé"
+        start-call-text="Démarrer la conversation"
+        end-call-text="Terminer la conversation"
+
+        listening-text="Mamé vous écoute..."
+        speaking-text="Mamé vous répond...">
+
+      </elevenlabs-convai>
+
+    </div>
+
+    <div class="tips">
+
+      <div class="tip">
+        <strong>⏱ Durée indicative</strong>
+        Environ 3 à 5 minutes
+      </div>
+
+      <div class="tip">
+        <strong>🎙 Conversation orale</strong>
+        Parlez naturellement comme au téléphone
+      </div>
+
+      <div class="tip">
+        <strong>💡 Pas de bonne réponse</strong>
+        L'objectif est de faire vivre l'échange
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<script
+  src="https://unpkg.com/@elevenlabs/convai-widget-embed"
+  async
+  type="text/javascript">
+</script>
 
 </body>
 </html>
