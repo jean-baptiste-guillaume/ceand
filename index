@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEAND - Simulation</title>
+</head>
+
+<body>
+
+  <h2>Simulation d'entretien</h2>
+  <p>Lorsque vous êtes prêt, démarrez la conversation.</p>
+
+  <elevenlabs-convai agent-id="agent_6901m0wc9v7be678a03mqymntktr"></elevenlabs-convai>
+
+  <script
+    src="https://unpkg.com/@elevenlabs/convai-widget-embed"
+    async
+    type="text/javascript">
+  </script>
+
+</body>
+</html>
