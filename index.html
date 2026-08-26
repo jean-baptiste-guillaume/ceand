@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Simulation de conversation</title>
+  <title>Conversation Mamé</title>
 
   <style>
     * {
@@ -17,131 +16,12 @@
       margin: 0;
       padding: 0;
       width: 100%;
-      background: #ffffff;
-      font-family: Arial, Helvetica, sans-serif;
-      color: #17172a;
-    }
-
-    body {
+      background: transparent;
       overflow-x: hidden;
+      font-family: Arial, Helvetica, sans-serif;
     }
 
-    .page {
-      width: 100%;
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    /* INTRODUCTION */
-
-    h1 {
-      margin: 0 0 10px;
-      font-size: 28px;
-      line-height: 1.2;
-      color: #17172a;
-    }
-
-    .intro {
-      margin: 0 0 18px;
-      font-size: 16px;
-      line-height: 1.5;
-      color: #4f4f62;
-    }
-
-    /* OBJECTIF */
-
-    .objective {
-      margin-bottom: 18px;
-      padding: 16px 18px;
-      background: #f2efff;
-      border-radius: 14px;
-      font-size: 15px;
-      line-height: 1.45;
-    }
-
-    .objective-title {
-      margin-bottom: 5px;
-      font-weight: 700;
-      color: #6545e8;
-    }
-
-    /* CARTE MAMÉ */
-
-    .card {
-      padding: 20px;
-      background: #ffffff;
-      border: 1px solid #eeeeF3;
-      border-radius: 16px;
-    }
-
-    .section-label {
-      margin-bottom: 15px;
-      font-size: 15px;
-      font-weight: 700;
-      color: #6545e8;
-    }
-
-    .profile {
-      display: flex;
-      align-items: center;
-      gap: 18px;
-      margin-bottom: 18px;
-    }
-
-    .avatar {
-      display: flex;
-      flex: 0 0 80px;
-      align-items: center;
-      justify-content: center;
-
-      width: 80px;
-      height: 80px;
-
-      background: #eeeaff;
-      border-radius: 50%;
-
-      font-size: 38px;
-    }
-
-    .profile-content {
-      min-width: 0;
-    }
-
-    .profile h2 {
-      margin: 0 0 5px;
-      font-size: 21px;
-      line-height: 1.2;
-    }
-
-    .profile p {
-      margin: 0;
-      font-size: 15px;
-      line-height: 1.45;
-      color: #555568;
-    }
-
-    /* CONSIGNE */
-
-    .mission {
-      margin-bottom: 18px;
-      padding: 14px 16px;
-      background: #faf9ff;
-      border-radius: 12px;
-
-      font-size: 15px;
-      line-height: 1.45;
-    }
-
-    .mission strong {
-      display: block;
-      margin-bottom: 4px;
-      color: #17172a;
-    }
-
-    /* ELEVENLABS */
-
-    .agent-container {
+    .agent-wrapper {
       width: 100%;
       margin: 0;
       padding: 0;
@@ -151,182 +31,25 @@
       display: block;
       width: 100%;
       margin: 0;
+      padding: 0;
     }
-
-    /* INFOS */
-
-    .info-bar {
-      display: flex;
-      gap: 12px;
-      margin-top: 16px;
-    }
-
-    .info {
-      flex: 1;
-      padding: 10px 12px;
-      background: #f7f7f9;
-      border-radius: 10px;
-
-      font-size: 13px;
-      line-height: 1.35;
-      color: #555568;
-    }
-
-    .info strong {
-      display: block;
-      margin-bottom: 2px;
-      color: #28283a;
-    }
-
-    /* RESPONSIVE */
-
-    @media (max-width: 600px) {
-
-      .page {
-        padding: 15px;
-      }
-
-      h1 {
-        font-size: 24px;
-      }
-
-      .profile {
-        align-items: flex-start;
-      }
-
-      .avatar {
-        flex-basis: 65px;
-        width: 65px;
-        height: 65px;
-        font-size: 31px;
-      }
-
-      .info-bar {
-        flex-direction: column;
-      }
-    }
-
   </style>
 </head>
 
-
 <body>
 
-  <main class="page">
+  <div class="agent-wrapper">
 
-    <!-- INTRODUCTION -->
+    <elevenlabs-convai
+      agent-id="agent_6901m0wc9v7be678a03mqymntktr"
+      variant="full"
+      start-call-text="Démarrer la conversation"
+      end-call-text="Terminer la conversation"
+      listening-text="Mamé vous écoute..."
+      speaking-text="Mamé vous répond...">
+    </elevenlabs-convai>
 
-    <h1>Simulation de conversation</h1>
-
-    <p class="intro">
-      Vous allez appeler votre grand-mère et échanger quelques minutes avec elle.
-      L'objectif est de maintenir une conversation naturelle, chaleureuse et attentive.
-    </p>
-
-
-    <!-- OBJECTIF -->
-
-    <section class="objective">
-
-      <div class="objective-title">
-        🎯 Votre objectif
-      </div>
-
-      Prendre des nouvelles de Mamé, lui montrer que vous pensez à elle
-      et faire vivre la conversation sans chercher à résoudre toutes les
-      difficultés qu'elle pourrait évoquer.
-
-    </section>
-
-
-    <!-- CARTE PRINCIPALE -->
-
-    <section class="card">
-
-      <div class="section-label">
-        Votre interlocutrice
-      </div>
-
-
-      <!-- PROFIL -->
-
-      <div class="profile">
-
-        <div class="avatar" aria-hidden="true">
-          👵
-        </div>
-
-        <div class="profile-content">
-
-          <h2>Mamé</h2>
-
-          <p>
-            Votre grand-mère vit seule et passe beaucoup de temps chez elle.
-            Elle est contente de vous entendre, même si elle peut commencer
-            la conversation en vous reprochant de ne pas l'appeler assez souvent.
-          </p>
-
-        </div>
-
-      </div>
-
-
-      <!-- CONSIGNE -->
-
-      <div class="mission">
-
-        <strong>Prêt à commencer ?</strong>
-
-        Lancez la conversation et échangez naturellement avec Mamé.
-        Écoutez-la, prenez de ses nouvelles et rebondissez simplement
-        sur ce qu'elle vous raconte.
-
-      </div>
-
-
-      <!-- AGENT ELEVENLABS -->
-
-      <div class="agent-container">
-
-        <elevenlabs-convai
-          agent-id="agent_6901m0wc9v7be678a03mqymntktr"
-          variant="full"
-          start-call-text="Démarrer la conversation"
-          end-call-text="Terminer la conversation"
-          listening-text="Mamé vous écoute..."
-          speaking-text="Mamé vous répond...">
-        </elevenlabs-convai>
-
-      </div>
-
-
-      <!-- INFORMATIONS -->
-
-      <div class="info-bar">
-
-        <div class="info">
-          <strong>⏱ Durée indicative</strong>
-          3 à 5 minutes
-        </div>
-
-        <div class="info">
-          <strong>🎙 Conversation orale</strong>
-          Parlez naturellement
-        </div>
-
-        <div class="info">
-          <strong>💡 Votre mission</strong>
-          Faites simplement vivre l'échange
-        </div>
-
-      </div>
-
-    </section>
-
-  </main>
-
-
-  <!-- SCRIPT ELEVENLABS -->
+  </div>
 
   <script
     src="https://unpkg.com/@elevenlabs/convai-widget-embed"
@@ -335,5 +58,4 @@
   </script>
 
 </body>
-
 </html>
