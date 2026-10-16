@@ -1,0 +1,270 @@
+{
+  "version": 2,
+  "type": "complement-additif",
+  "overwrite_existing": false,
+  "image_count": 17,
+  "assets": [
+    {
+      "id": "bg_corridor_porte",
+      "path": "assets/backgrounds/bg_corridor_porte.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1924283,
+      "transparent": false
+    },
+    {
+      "id": "bg_consultation_seuil",
+      "path": "assets/backgrounds/bg_consultation_seuil.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2079661,
+      "transparent": false
+    },
+    {
+      "id": "bg_corridor_sortie",
+      "path": "assets/backgrounds/bg_corridor_sortie.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2029731,
+      "transparent": false
+    },
+    {
+      "id": "khloe_assise_ecoute_face",
+      "path": "assets/characters/khloe_assise_ecoute_face.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2068344,
+      "transparent": true,
+      "subject_bounds": [
+        216,
+        41,
+        834,
+        1452
+      ],
+      "character": "Khloé",
+      "pose": "assise",
+      "action": "ecoute_face"
+    },
+    {
+      "id": "khloe_assise_parle_face",
+      "path": "assets/characters/khloe_assise_parle_face.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2114424,
+      "transparent": true,
+      "subject_bounds": [
+        217,
+        31,
+        857,
+        1460
+      ],
+      "character": "Khloé",
+      "pose": "assise",
+      "action": "parle_face"
+    },
+    {
+      "id": "khloe_assise_parle_autre",
+      "path": "assets/characters/khloe_assise_parle_autre.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2119684,
+      "transparent": true,
+      "subject_bounds": [
+        213,
+        70,
+        930,
+        1450
+      ],
+      "character": "Khloé",
+      "pose": "assise",
+      "action": "parle_autre"
+    },
+    {
+      "id": "khloe_assise_hesite_face",
+      "path": "assets/characters/khloe_assise_hesite_face.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2054891,
+      "transparent": true,
+      "subject_bounds": [
+        214,
+        61,
+        840,
+        1450
+      ],
+      "character": "Khloé",
+      "pose": "assise",
+      "action": "hesite_face"
+    },
+    {
+      "id": "khloe_debout_ecoute_face",
+      "path": "assets/characters/khloe_debout_ecoute_face.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1787519,
+      "transparent": true,
+      "subject_bounds": [
+        297,
+        48,
+        737,
+        1486
+      ],
+      "character": "Khloé",
+      "pose": "debout",
+      "action": "ecoute_face"
+    },
+    {
+      "id": "khloe_debout_parle_face",
+      "path": "assets/characters/khloe_debout_parle_face.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1833143,
+      "transparent": true,
+      "subject_bounds": [
+        287,
+        50,
+        754,
+        1487
+      ],
+      "character": "Khloé",
+      "pose": "debout",
+      "action": "parle_face"
+    },
+    {
+      "id": "khloe_debout_marche",
+      "path": "assets/characters/khloe_debout_marche.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1967718,
+      "transparent": true,
+      "subject_bounds": [
+        177,
+        42,
+        897,
+        1455
+      ],
+      "character": "Khloé",
+      "pose": "debout",
+      "action": "marche"
+    },
+    {
+      "id": "elise_assise_ecoute_face",
+      "path": "assets/characters/elise_assise_ecoute_face.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1614716,
+      "transparent": true,
+      "subject_bounds": [
+        198,
+        29,
+        794,
+        1498
+      ],
+      "character": "Élise",
+      "pose": "assise",
+      "action": "ecoute_face"
+    },
+    {
+      "id": "elise_assise_parle_face",
+      "path": "assets/characters/elise_assise_parle_face.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1611213,
+      "transparent": true,
+      "subject_bounds": [
+        197,
+        27,
+        801,
+        1497
+      ],
+      "character": "Élise",
+      "pose": "assise",
+      "action": "parle_face"
+    },
+    {
+      "id": "elise_assise_parle_autre",
+      "path": "assets/characters/elise_assise_parle_autre.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1668370,
+      "transparent": true,
+      "subject_bounds": [
+        93,
+        41,
+        831,
+        1472
+      ],
+      "character": "Élise",
+      "pose": "assise",
+      "action": "parle_autre"
+    },
+    {
+      "id": "elise_assise_hesite_face",
+      "path": "assets/characters/elise_assise_hesite_face.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1630575,
+      "transparent": true,
+      "subject_bounds": [
+        198,
+        26,
+        794,
+        1497
+      ],
+      "character": "Élise",
+      "pose": "assise",
+      "action": "hesite_face"
+    },
+    {
+      "id": "elise_debout_ecoute_face",
+      "path": "assets/characters/elise_debout_ecoute_face.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1397055,
+      "transparent": true,
+      "subject_bounds": [
+        308,
+        18,
+        719,
+        1511
+      ],
+      "character": "Élise",
+      "pose": "debout",
+      "action": "ecoute_face"
+    },
+    {
+      "id": "elise_debout_parle_face",
+      "path": "assets/characters/elise_debout_parle_face.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1407237,
+      "transparent": true,
+      "subject_bounds": [
+        308,
+        20,
+        724,
+        1510
+      ],
+      "character": "Élise",
+      "pose": "debout",
+      "action": "parle_face"
+    },
+    {
+      "id": "elise_debout_marche",
+      "path": "assets/characters/elise_debout_marche.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1573658,
+      "transparent": true,
+      "subject_bounds": [
+        195,
+        25,
+        870,
+        1453
+      ],
+      "character": "Élise",
+      "pose": "debout",
+      "action": "marche"
+    }
+  ]
+}
