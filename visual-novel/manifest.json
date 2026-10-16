@@ -1,0 +1,283 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "bg_consultation",
+      "path": "assets/backgrounds/bg_consultation.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2554024,
+      "mode": "RGB"
+    },
+    {
+      "id": "bg_waiting",
+      "path": "assets/backgrounds/bg_waiting.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2373514,
+      "mode": "RGB"
+    },
+    {
+      "id": "bg_corridor",
+      "path": "assets/backgrounds/bg_corridor.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1929181,
+      "mode": "RGB"
+    },
+    {
+      "id": "khloe_assise_ouverte",
+      "path": "assets/characters/khloe_assise_ouverte.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2075007,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        211,
+        72,
+        830,
+        1449
+      ],
+      "transparent": true
+    },
+    {
+      "id": "khloe_debout_ouverte",
+      "path": "assets/characters/khloe_debout_ouverte.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1829597,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        287,
+        50,
+        742,
+        1485
+      ],
+      "transparent": true
+    },
+    {
+      "id": "elise_assise_ouverte",
+      "path": "assets/characters/elise_assise_ouverte.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1626886,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        198,
+        46,
+        790,
+        1496
+      ],
+      "transparent": true
+    },
+    {
+      "id": "elise_debout_ouverte",
+      "path": "assets/characters/elise_debout_ouverte.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1438269,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        307,
+        26,
+        718,
+        1511
+      ],
+      "transparent": true
+    },
+    {
+      "id": "khloe_assise_enthousiaste",
+      "path": "assets/characters/khloe_assise_enthousiaste.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2118058,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        204,
+        33,
+        854,
+        1459
+      ],
+      "transparent": true
+    },
+    {
+      "id": "khloe_assise_reservee",
+      "path": "assets/characters/khloe_assise_reservee.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2254721,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        212,
+        42,
+        845,
+        1459
+      ],
+      "transparent": true,
+      "max_rgb_difference": 24
+    },
+    {
+      "id": "khloe_assise_fermee",
+      "path": "assets/characters/khloe_assise_fermee.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2418230,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        213,
+        15,
+        849,
+        1477
+      ],
+      "transparent": true,
+      "max_rgb_difference": 18
+    },
+    {
+      "id": "khloe_debout_enthousiaste",
+      "path": "assets/characters/khloe_debout_enthousiaste.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1801191,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        284,
+        51,
+        743,
+        1486
+      ],
+      "transparent": true
+    },
+    {
+      "id": "khloe_debout_reservee",
+      "path": "assets/characters/khloe_debout_reservee.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2007046,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        278,
+        33,
+        734,
+        1486
+      ],
+      "transparent": true,
+      "max_rgb_difference": 21
+    },
+    {
+      "id": "khloe_debout_fermee",
+      "path": "assets/characters/khloe_debout_fermee.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2042259,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        275,
+        29,
+        738,
+        1493
+      ],
+      "transparent": true,
+      "max_rgb_difference": 18
+    },
+    {
+      "id": "elise_assise_enthousiaste",
+      "path": "assets/characters/elise_assise_enthousiaste.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1613090,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        199,
+        30,
+        795,
+        1495
+      ],
+      "transparent": true
+    },
+    {
+      "id": "elise_assise_reservee",
+      "path": "assets/characters/elise_assise_reservee.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1902781,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        198,
+        39,
+        797,
+        1504
+      ],
+      "transparent": true,
+      "max_rgb_difference": 13
+    },
+    {
+      "id": "elise_assise_fermee",
+      "path": "assets/characters/elise_assise_fermee.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1938228,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        200,
+        26,
+        826,
+        1503
+      ],
+      "transparent": true,
+      "max_rgb_difference": 14
+    },
+    {
+      "id": "elise_debout_enthousiaste",
+      "path": "assets/characters/elise_debout_enthousiaste.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1408192,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        312,
+        25,
+        720,
+        1511
+      ],
+      "transparent": true
+    },
+    {
+      "id": "elise_debout_reservee",
+      "path": "assets/characters/elise_debout_reservee.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1635660,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        335,
+        20,
+        716,
+        1514
+      ],
+      "transparent": true,
+      "max_rgb_difference": 14
+    },
+    {
+      "id": "elise_debout_fermee",
+      "path": "assets/characters/elise_debout_fermee.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1632449,
+      "mode": "RGBA",
+      "opaque_bbox": [
+        337,
+        24,
+        715,
+        1513
+      ],
+      "transparent": true,
+      "max_rgb_difference": 16
+    }
+  ],
+  "states": {
+    "ouverte": "pensive plus — couleur",
+    "enthousiaste": "enthousiaste — couleur",
+    "reservee": "pensive moins — noir et blanc",
+    "fermee": "boude ou colère — noir et blanc"
+  }
+}
